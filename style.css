@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Title";
+    src: url("/fonts/title.ttf") format('truetype');
+
+}
+
+@font-face {
+    font-family: "Type";
+    src: url("/fonts/type.ttf") format('truetype');
+}
+
+h1 {
+    font-size: 65px;
+    font-family: "Title";
+    color: black;
+    text-align: center;
+}
+
+body {
+    color: #F5F5F5;
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+    color: #000;
+    font-family: "Type";
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #F5F5F5;
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #050505;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
