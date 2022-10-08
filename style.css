@@ -9,6 +9,11 @@
     src: url("/fonts/type.ttf") format('truetype');
 }
 
+body {
+  color: #F5F5F5;
+  text-align: center;
+}
+
 h1 {
     font-size: 65px;
     font-family: "Title";
@@ -34,11 +39,6 @@ h4 {
   font-family: "Type";
   color: #000;
   text-align: center;
-}
-
-body {
-    color: #F5F5F5;
-    text-align: center;
 }
 
 p {
